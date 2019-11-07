@@ -9,9 +9,11 @@ export default ({ children, titleheader }) => {
             bordered={true}
             expandIcon={({ isActive }) => <Icon type="caret-right" rotate={isActive ? 90 : 0} />}
             >
-            <Panel header={ titleheader } className='base-containner-style-panel'>
-                <p>{ children }</p>
-            </Panel>
+                <Panel header={ titleheader } className='base-containner-style-panel'>
+                    <p>
+                        { children }
+                    </p>
+                </Panel>
         </Collapse>
     </>
 }

@@ -1,0 +1,18 @@
+.cardpic {
+    width: 100px;
+    background-color: #fafafa;
+    margin: 9px;
+    border: solid #eee 1px;
+    border-radius: 7px;
+}
+
+.pic {
+    width: 100px;
+    height: 120px;
+    background-color: #ccc;
+    background-image: url('/static/mean.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}

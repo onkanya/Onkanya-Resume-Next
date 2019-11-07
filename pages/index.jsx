@@ -1,6 +1,8 @@
 import BaseContainer from '../components/common/BaseContainer';
 import GeneralComponent from '../components/common/GeneralComponent'
 import SkillComponent from '../components/common/SkillComponent'
+import Card from '../components/common/CardPic'
+
 
 const Index = () => {
     const ProfileDetail = [
@@ -45,6 +47,7 @@ const Index = () => {
     return(
         <div>
             <BaseContainer titleheader='Profile'>
+                <Card></Card>
                 {
                     ProfileDetail.map(profile => <GeneralComponent {...profile} />)
                 }

@@ -8,9 +8,9 @@ const DefaultLayout = (props) => {
     return (
         <Layout>
             <Header className='layout-header-style'>
-                <span>
-                    ONKANYA WONGRAKTHAI
-                </span>
+                <div>
+                    ONKANYA WONGRAKTHAI [PROFILE]
+                </div>
             </Header>
             <Content className='layout-content-style'>
                 <div className='container'>
