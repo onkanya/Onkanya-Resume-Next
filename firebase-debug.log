@@ -1,0 +1,376 @@
+[debug] [2019-11-07T03:16:47.574Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T03:16:47.576Z] Command:       /Users/macbook/.nvm/versions/node/v12.13.0/bin/node /Users/macbook/.nvm/versions/node/v12.13.0/bin/firebase serve --only functions
+[debug] [2019-11-07T03:16:47.576Z] CLI Version:   7.6.2
+[debug] [2019-11-07T03:16:47.576Z] Platform:      darwin
+[debug] [2019-11-07T03:16:47.576Z] Node Version:  v12.13.0
+[debug] [2019-11-07T03:16:47.577Z] Time:          Thu Nov 07 2019 10:16:47 GMT+0700 (Indochina Time)
+[debug] [2019-11-07T03:16:47.577Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T03:16:47.577Z] 
+[debug] [2019-11-07T03:16:47.584Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-07T03:16:47.584Z] > authorizing via signed-in user
+[debug] [2019-11-07T03:16:47.584Z] [iam] checking project onkanya-resume-next for permissions ["firebase.projects.get"]
+[debug] [2019-11-07T03:16:47.586Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/onkanya-resume-next:testIamPermissions  
+
+[debug] [2019-11-07T03:16:48.898Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-07T03:16:48.901Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/onkanya-resume-next  
+ 
+[debug] [2019-11-07T03:16:49.319Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/Users/macbook/Documents/Mean Next Resume/functions" for Cloud Functions...
+[debug] [2019-11-07T03:16:49.603Z] [worker-~diagnostic~-bd7aa178-8f61-4604-adc8-0a8122389df8]: BUSY
+[debug] [2019-11-07T03:16:49.828Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:16:49.829Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:16:49.831Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:16:49.832Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:49.833Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[nextApp]: http function initialized (http://localhost:5000/onkanya-resume-next/us-central1/nextApp).
+[debug] [2019-11-07T03:16:49.963Z] [worker-~diagnostic~-bd7aa178-8f61-4604-adc8-0a8122389df8]: exited
+[debug] [2019-11-07T03:16:49.964Z] [worker-~diagnostic~-bd7aa178-8f61-4604-adc8-0a8122389df8]: FINISHED
+[debug] [2019-11-07T03:16:52.463Z] Accepted request GET /onkanya-resume-next/us-central1/nextApp --> nextApp
+[debug] [2019-11-07T03:16:52.466Z] [worker-nextApp-0e58f7d6-6d9a-491c-aff8-612214b5b0dd]: BUSY
+[debug] [2019-11-07T03:16:52.690Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:16:52.691Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:16:52.693Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:16:52.694Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:52.695Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:52.826Z] [runtime-status] Trigger "nextApp" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "nextApp"
+[debug] [2019-11-07T03:16:52.826Z] [runtime-status]  {"httpsTrigger":{},"name":"nextApp","entryPoint":"nextApp"}
+[debug] [2019-11-07T03:16:52.826Z] [runtime-status] Running nextApp in mode HTTPS {}
+[debug] [2019-11-07T03:16:52.832Z] {"socketPath":"/var/folders/2c/v8wt9tws6v74xbk_w6zcf1mw0000gn/T/firebase_emulator_invocation_3201.sock"}
+[debug] [2019-11-07T03:16:52.836Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/2c/v8wt9tws6v74xbk_w6zcf1mw0000gn/T/firebase_emulator_invocation_3201.sock"}
+[debug] [2019-11-07T03:16:52.852Z] [runtime-status] Ephemeral server used! {}
+[info] >  [Function] RequestUrl /onkanya-resume-next/us-central1/nextApp
+[debug] [2019-11-07T03:16:53.577Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "nextApp" in ~1s
+[debug] [2019-11-07T03:16:53.581Z] [worker-nextApp-0e58f7d6-6d9a-491c-aff8-612214b5b0dd]: IDLE
+[debug] [2019-11-07T03:16:53.620Z] Accepted request GET /_next/static/T-C5CJBHjbGXX8P42moNB/pages/index.js --> T-C5CJBHjbGXX8P42moNB
+[debug] [2019-11-07T03:16:53.630Z] [worker-T-C5CJBHjbGXX8P42moNB-2f1879d1-837e-4695-b783-d64981fb2fd2]: BUSY
+[debug] [2019-11-07T03:16:53.631Z] Accepted request GET /_next/static/T-C5CJBHjbGXX8P42moNB/pages/_app.js --> T-C5CJBHjbGXX8P42moNB
+[debug] [2019-11-07T03:16:53.638Z] [worker-T-C5CJBHjbGXX8P42moNB-3ef75ef1-97e8-43b1-83c3-118a4e9b65f4]: BUSY
+[debug] [2019-11-07T03:16:53.642Z] Accepted request GET /_next/static/runtime/webpack-4b444dab214c6491079c.js --> runtime
+[debug] [2019-11-07T03:16:53.647Z] [worker-runtime-5e2907f3-f998-46d1-80ca-32f1d7200aab]: BUSY
+[debug] [2019-11-07T03:16:53.648Z] Accepted request GET /_next/static/chunks/commons.dbcc15feb06faaafdd30.js --> chunks
+[debug] [2019-11-07T03:16:53.654Z] [worker-chunks-07256435-d4c7-4ecf-a4a7-6cc34b8a8478]: BUSY
+[debug] [2019-11-07T03:16:53.655Z] Accepted request GET /_next/static/chunks/styles.ba356bad705f4b03ebd3.js --> chunks
+[debug] [2019-11-07T03:16:53.697Z] [worker-chunks-f6b3348c-2712-4a70-8ccc-a4b9e22d6f4a]: BUSY
+[debug] [2019-11-07T03:16:53.698Z] Accepted request GET /_next/static/css/styles.b42f8a51.chunk.css --> css
+[debug] [2019-11-07T03:16:53.714Z] [worker-css-9f9024bf-76f6-4e7b-a6b5-e25662da6278]: BUSY
+[debug] [2019-11-07T03:16:54.488Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:16:54.489Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:16:54.492Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:16:54.494Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.497Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:16:54.499Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.499Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:16:54.501Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:16:54.503Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.504Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.566Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:16:54.568Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:16:54.570Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:16:54.573Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.574Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.580Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:16:54.581Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:16:54.583Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:16:54.584Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.586Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.596Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:16:54.597Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:16:54.599Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:16:54.604Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.605Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.674Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:16:54.675Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:16:54.677Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:16:54.679Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:16:54.683Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  functions: Could not find trigger "T-C5CJBHjbGXX8P42moNB" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[info] i  functions: Beginning execution of "T-C5CJBHjbGXX8P42moNB"
+[warn] ⚠  functions: TypeError: Cannot read property 'definition' of undefined
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:648:30
+    at Generator.next (<anonymous>)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at invokeTrigger (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:640:12)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:757:19
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[debug] [2019-11-07T03:16:54.953Z] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:170:12)
+    at EventEmitter.<anonymous> (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:96:37)
+    at EventEmitter.emit (events.js:215:7)
+    at EventEmitter.emit (domain.js:476:20)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:526:21
+    at Array.forEach (<anonymous>)
+    at onData (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:524:28)
+    at ChildProcess.<anonymous> (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:485:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-11-07T03:16:54.954Z] Accepted request GET /_next/static/runtime/main-5da4e4fb674318863796.js --> runtime
+[debug] [2019-11-07T03:16:54.960Z] [worker-runtime-f175da6d-537f-4c88-9e2a-cd345339645b]: BUSY
+[debug] [2019-11-07T03:16:54.991Z] [worker-T-C5CJBHjbGXX8P42moNB-3ef75ef1-97e8-43b1-83c3-118a4e9b65f4]: exited
+[debug] [2019-11-07T03:16:54.991Z] [worker-T-C5CJBHjbGXX8P42moNB-3ef75ef1-97e8-43b1-83c3-118a4e9b65f4]: FINISHED
+[warn] ⚠  functions: Could not find trigger "chunks" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-11-07T03:16:55.049Z] [worker-chunks-07256435-d4c7-4ecf-a4a7-6cc34b8a8478]: exited
+[debug] [2019-11-07T03:16:55.049Z] [worker-chunks-07256435-d4c7-4ecf-a4a7-6cc34b8a8478]: FINISHED
+[warn] ⚠  functions: Could not find trigger "T-C5CJBHjbGXX8P42moNB" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[info] i  functions: Beginning execution of "T-C5CJBHjbGXX8P42moNB"
+[warn] ⚠  functions: TypeError: Cannot read property 'definition' of undefined
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:648:30
+    at Generator.next (<anonymous>)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at invokeTrigger (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:640:12)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:757:19
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[debug] [2019-11-07T03:16:55.097Z] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:170:12)
+    at EventEmitter.<anonymous> (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:96:37)
+    at EventEmitter.emit (events.js:215:7)
+    at EventEmitter.emit (domain.js:476:20)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:526:21
+    at Array.forEach (<anonymous>)
+    at onData (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:524:28)
+    at ChildProcess.<anonymous> (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:485:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-11-07T03:16:55.110Z] [worker-T-C5CJBHjbGXX8P42moNB-2f1879d1-837e-4695-b783-d64981fb2fd2]: exited
+[debug] [2019-11-07T03:16:55.111Z] [worker-T-C5CJBHjbGXX8P42moNB-2f1879d1-837e-4695-b783-d64981fb2fd2]: FINISHED
+[warn] ⚠  functions: Could not find trigger "css" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-11-07T03:16:55.155Z] [worker-css-9f9024bf-76f6-4e7b-a6b5-e25662da6278]: exited
+[debug] [2019-11-07T03:16:55.155Z] [worker-css-9f9024bf-76f6-4e7b-a6b5-e25662da6278]: FINISHED
+[warn] ⚠  functions: Could not find trigger "runtime" in your functions directory.
+[debug] [2019-11-07T03:17:51.606Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T03:17:51.608Z] Command:       /Users/macbook/.nvm/versions/node/v12.13.0/bin/node /Users/macbook/.nvm/versions/node/v12.13.0/bin/firebase serve --only functions
+[debug] [2019-11-07T03:17:51.608Z] CLI Version:   7.6.2
+[debug] [2019-11-07T03:17:51.608Z] Platform:      darwin
+[debug] [2019-11-07T03:17:51.608Z] Node Version:  v12.13.0
+[debug] [2019-11-07T03:17:51.609Z] Time:          Thu Nov 07 2019 10:17:51 GMT+0700 (Indochina Time)
+[debug] [2019-11-07T03:17:51.609Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T03:17:51.609Z] 
+[debug] [2019-11-07T03:17:51.617Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-07T03:17:51.617Z] > authorizing via signed-in user
+[debug] [2019-11-07T03:17:51.617Z] [iam] checking project onkanya-resume-next for permissions ["firebase.projects.get"]
+[debug] [2019-11-07T03:17:51.619Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/onkanya-resume-next:testIamPermissions  
+
+[debug] [2019-11-07T03:17:52.946Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-07T03:17:52.949Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/onkanya-resume-next  
+ 
+[debug] [2019-11-07T03:17:53.325Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/Users/macbook/Documents/Mean Next Resume/functions" for Cloud Functions...
+[debug] [2019-11-07T03:17:53.612Z] [worker-~diagnostic~-4f2aa86a-9a04-447c-8739-4b5032295caa]: BUSY
+[debug] [2019-11-07T03:17:53.860Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:17:53.860Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:17:53.864Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:17:53.865Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:17:53.867Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Could not find a valid build in the '/Users/macbook/Documents/Mean Next Resume/functions/.next' directory! Try building your app with 'next build' before starting the server.
+    at Server.readBuildId (/Users/macbook/Documents/Mean Next Resume/node_modules/next/dist/next-server/server/next-server.js:547:23)
+    at new Server (/Users/macbook/Documents/Mean Next Resume/node_modules/next/dist/next-server/server/next-server.js:48:29)
+    at createServer (/Users/macbook/Documents/Mean Next Resume/node_modules/next/dist/server/next.js:2:133)
+    at Object.<anonymous> (/Users/macbook/Documents/Mean Next Resume/functions/index.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-11-07T03:17:54.028Z] [worker-~diagnostic~-4f2aa86a-9a04-447c-8739-4b5032295caa]: exited
+[debug] [2019-11-07T03:17:54.028Z] [worker-~diagnostic~-4f2aa86a-9a04-447c-8739-4b5032295caa]: FINISHED
+[debug] [2019-11-07T03:18:00.336Z] File /Users/macbook/Documents/Mean Next Resume/functions/index.js changed, reloading triggers
+[debug] [2019-11-07T03:18:00.503Z] File /Users/macbook/Documents/Mean Next Resume/functions/index.js changed, reloading triggers
+[debug] [2019-11-07T03:18:01.510Z] [worker-~diagnostic~-2a68173e-7863-4fcb-a4ef-d541ede10251]: BUSY
+[debug] [2019-11-07T03:18:01.804Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:18:01.805Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:18:01.809Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:18:01.810Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:01.811Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[nextApp]: http function initialized (http://localhost:5000/onkanya-resume-next/us-central1/nextApp).
+[debug] [2019-11-07T03:18:02.026Z] [worker-~diagnostic~-2a68173e-7863-4fcb-a4ef-d541ede10251]: exited
+[debug] [2019-11-07T03:18:02.027Z] [worker-~diagnostic~-2a68173e-7863-4fcb-a4ef-d541ede10251]: FINISHED
+[debug] [2019-11-07T03:18:06.023Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T03:18:06.030Z] Command:       /Users/macbook/.nvm/versions/node/v12.13.0/bin/node /Users/macbook/.nvm/versions/node/v12.13.0/bin/firebase serve --only functions
+[debug] [2019-11-07T03:18:06.030Z] CLI Version:   7.6.2
+[debug] [2019-11-07T03:18:06.030Z] Platform:      darwin
+[debug] [2019-11-07T03:18:06.030Z] Node Version:  v12.13.0
+[debug] [2019-11-07T03:18:06.031Z] Time:          Thu Nov 07 2019 10:18:06 GMT+0700 (Indochina Time)
+[debug] [2019-11-07T03:18:06.031Z] ----------------------------------------------------------------------
+[debug] [2019-11-07T03:18:06.031Z] 
+[debug] [2019-11-07T03:18:06.039Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-07T03:18:06.039Z] > authorizing via signed-in user
+[debug] [2019-11-07T03:18:06.040Z] [iam] checking project onkanya-resume-next for permissions ["firebase.projects.get"]
+[debug] [2019-11-07T03:18:06.041Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/onkanya-resume-next:testIamPermissions  
+
+[debug] [2019-11-07T03:18:07.438Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-07T03:18:07.440Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/onkanya-resume-next  
+ 
+[debug] [2019-11-07T03:18:07.841Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/Users/macbook/Documents/Mean Next Resume/functions" for Cloud Functions...
+[debug] [2019-11-07T03:18:08.127Z] [worker-~diagnostic~-c9277975-c462-499e-9e97-e4a941cbed51]: BUSY
+[debug] [2019-11-07T03:18:08.348Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:18:08.349Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:18:08.351Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:18:08.352Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:08.352Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[nextApp]: http function initialized (http://localhost:5000/onkanya-resume-next/us-central1/nextApp).
+[debug] [2019-11-07T03:18:08.491Z] [worker-~diagnostic~-c9277975-c462-499e-9e97-e4a941cbed51]: exited
+[debug] [2019-11-07T03:18:08.491Z] [worker-~diagnostic~-c9277975-c462-499e-9e97-e4a941cbed51]: FINISHED
+[debug] [2019-11-07T03:18:14.235Z] Accepted request GET /onkanya-resume-next/us-central1/nextApp --> nextApp
+[debug] [2019-11-07T03:18:14.243Z] [worker-nextApp-801691d9-b9bf-4118-8908-986db7d3adfe]: BUSY
+[debug] [2019-11-07T03:18:14.537Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:18:14.538Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:18:14.541Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:18:14.542Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:14.543Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:14.662Z] [runtime-status] Trigger "nextApp" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "nextApp"
+[debug] [2019-11-07T03:18:14.663Z] [runtime-status]  {"httpsTrigger":{},"name":"nextApp","entryPoint":"nextApp"}
+[debug] [2019-11-07T03:18:14.663Z] [runtime-status] Running nextApp in mode HTTPS {}
+[debug] [2019-11-07T03:18:14.670Z] {"socketPath":"/var/folders/2c/v8wt9tws6v74xbk_w6zcf1mw0000gn/T/firebase_emulator_invocation_3299.sock"}
+[debug] [2019-11-07T03:18:14.672Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/2c/v8wt9tws6v74xbk_w6zcf1mw0000gn/T/firebase_emulator_invocation_3299.sock"}
+[debug] [2019-11-07T03:18:14.696Z] [runtime-status] Ephemeral server used! {}
+[info] >  [Function] RequestUrl /onkanya-resume-next/us-central1/nextApp
+[debug] [2019-11-07T03:18:16.151Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "nextApp" in ~1s
+[debug] [2019-11-07T03:18:16.165Z] [worker-nextApp-801691d9-b9bf-4118-8908-986db7d3adfe]: IDLE
+[debug] [2019-11-07T03:18:16.307Z] Accepted request GET /_next/static/T-C5CJBHjbGXX8P42moNB/pages/index.js --> T-C5CJBHjbGXX8P42moNB
+[debug] [2019-11-07T03:18:16.326Z] [worker-T-C5CJBHjbGXX8P42moNB-2588a25b-b613-436d-b1e1-f6863c3579bb]: BUSY
+[debug] [2019-11-07T03:18:16.328Z] Accepted request GET /_next/static/T-C5CJBHjbGXX8P42moNB/pages/_app.js --> T-C5CJBHjbGXX8P42moNB
+[debug] [2019-11-07T03:18:16.339Z] [worker-T-C5CJBHjbGXX8P42moNB-9d1fc838-5b9e-4b3d-836d-2870ca7e0c96]: BUSY
+[debug] [2019-11-07T03:18:16.340Z] Accepted request GET /_next/static/runtime/webpack-4b444dab214c6491079c.js --> runtime
+[debug] [2019-11-07T03:18:16.348Z] [worker-runtime-24ed3621-6769-45a7-99b7-7b11deb1b969]: BUSY
+[debug] [2019-11-07T03:18:16.349Z] Accepted request GET /_next/static/chunks/commons.dbcc15feb06faaafdd30.js --> chunks
+[debug] [2019-11-07T03:18:16.370Z] [worker-chunks-4d30ec0b-69e5-4aec-a7cf-d47080894252]: BUSY
+[debug] [2019-11-07T03:18:16.371Z] Accepted request GET /_next/static/chunks/styles.ba356bad705f4b03ebd3.js --> chunks
+[debug] [2019-11-07T03:18:16.381Z] [worker-chunks-ab8cde78-1019-4d82-bf78-6f5489cb67e3]: BUSY
+[debug] [2019-11-07T03:18:16.382Z] Accepted request GET /_next/static/css/styles.b42f8a51.chunk.css --> css
+[debug] [2019-11-07T03:18:16.389Z] [worker-css-ecabcd60-8e5c-467b-9135-eef06abde651]: BUSY
+[debug] [2019-11-07T03:18:17.270Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:18:17.271Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:18:17.273Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:18:17.276Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:18:17.280Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:18:17.281Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.283Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.285Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:18:17.292Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.293Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.319Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:18:17.320Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:18:17.322Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:18:17.322Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:18:17.323Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.324Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:18:17.325Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.332Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:18:17.333Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.334Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.342Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:18:17.344Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:18:17.346Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:18:17.347Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.349Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.379Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/macbook/Documents/Mean Next Resume/functions","node_version":"12.13.0"}
+[debug] [2019-11-07T03:18:17.381Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-07T03:18:17.383Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-07T03:18:17.384Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-07T03:18:17.385Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/macbook/Documents/Mean Next Resume/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  functions: Could not find trigger "chunks" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-11-07T03:18:17.953Z] Accepted request GET /_next/static/runtime/main-5da4e4fb674318863796.js --> runtime
+[debug] [2019-11-07T03:18:17.959Z] [worker-runtime-6a28f409-e8ca-464a-b5fb-57586dfcbc66]: BUSY
+[debug] [2019-11-07T03:18:17.996Z] [worker-chunks-4d30ec0b-69e5-4aec-a7cf-d47080894252]: exited
+[debug] [2019-11-07T03:18:17.996Z] [worker-chunks-4d30ec0b-69e5-4aec-a7cf-d47080894252]: FINISHED
+[warn] ⚠  functions: Could not find trigger "chunks" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[info] i  functions: Beginning execution of "chunks"
+[warn] ⚠  functions: TypeError: Cannot read property 'definition' of undefined
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:648:30
+    at Generator.next (<anonymous>)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at invokeTrigger (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:640:12)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:757:19
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[debug] [2019-11-07T03:18:18.069Z] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:170:12)
+    at EventEmitter.<anonymous> (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:96:37)
+    at EventEmitter.emit (events.js:215:7)
+    at EventEmitter.emit (domain.js:476:20)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:526:21
+    at Array.forEach (<anonymous>)
+    at onData (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:524:28)
+    at ChildProcess.<anonymous> (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:485:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[warn] ⚠  functions: Could not find trigger "T-C5CJBHjbGXX8P42moNB" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[info] i  functions: Beginning execution of "T-C5CJBHjbGXX8P42moNB"
+[debug] [2019-11-07T03:18:18.098Z] [worker-chunks-ab8cde78-1019-4d82-bf78-6f5489cb67e3]: exited
+[debug] [2019-11-07T03:18:18.098Z] [worker-chunks-ab8cde78-1019-4d82-bf78-6f5489cb67e3]: FINISHED
+[debug] [2019-11-07T03:18:18.099Z] [worker-T-C5CJBHjbGXX8P42moNB-9d1fc838-5b9e-4b3d-836d-2870ca7e0c96]: exited
+[debug] [2019-11-07T03:18:18.099Z] [worker-T-C5CJBHjbGXX8P42moNB-9d1fc838-5b9e-4b3d-836d-2870ca7e0c96]: FINISHED
+[warn] ⚠  functions: Could not find trigger "T-C5CJBHjbGXX8P42moNB" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[info] i  functions: Beginning execution of "T-C5CJBHjbGXX8P42moNB"
+[debug] [2019-11-07T03:18:18.165Z] [worker-T-C5CJBHjbGXX8P42moNB-2588a25b-b613-436d-b1e1-f6863c3579bb]: exited
+[debug] [2019-11-07T03:18:18.165Z] [worker-T-C5CJBHjbGXX8P42moNB-2588a25b-b613-436d-b1e1-f6863c3579bb]: FINISHED
+[warn] ⚠  functions: Could not find trigger "css" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[warn] ⚠  functions: Could not find trigger "runtime" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[info] i  functions: Beginning execution of "runtime"
+[warn] ⚠  functions: TypeError: Cannot read property 'definition' of undefined
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:648:30
+    at Generator.next (<anonymous>)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at invokeTrigger (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:640:12)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:757:19
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[debug] [2019-11-07T03:18:18.247Z] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/node_modules/express/lib/response.js:170:12)
+    at EventEmitter.<anonymous> (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:96:37)
+    at EventEmitter.emit (events.js:215:7)
+    at EventEmitter.emit (domain.js:476:20)
+    at /Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:526:21
+    at Array.forEach (<anonymous>)
+    at onData (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:524:28)
+    at ChildProcess.<anonymous> (/Users/macbook/.nvm/versions/node/v12.13.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:485:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-11-07T03:18:18.250Z] [worker-runtime-24ed3621-6769-45a7-99b7-7b11deb1b969]: exited
+[debug] [2019-11-07T03:18:18.250Z] [worker-runtime-24ed3621-6769-45a7-99b7-7b11deb1b969]: FINISHED
+[debug] [2019-11-07T03:18:18.250Z] [worker-css-ecabcd60-8e5c-467b-9135-eef06abde651]: exited
+[debug] [2019-11-07T03:18:18.250Z] [worker-css-ecabcd60-8e5c-467b-9135-eef06abde651]: FINISHED

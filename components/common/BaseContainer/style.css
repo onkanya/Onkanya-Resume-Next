@@ -1,0 +1,24 @@
+.skill-container-style .title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: #55967e;
+}
+
+.base-containner-style-panel {
+    background: #55967e;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 0;
+    overflow: auto;
+    font-size: 16pt;
+}
+
+.base-containner-style-panel p {
+    font-size: 14pt;
+    color: #263959;
+    padding: 2%;
+    overflow: auto;
+}
+/* 79a8a9 */

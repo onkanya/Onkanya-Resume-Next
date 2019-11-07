@@ -1,0 +1,23 @@
+.layout-footer-style {
+    text-align: center;
+}
+
+.layout-header-style {
+    text-align: center;
+}
+
+.layout-header-style span {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    padding: 5px;
+    font-size: 20pt;
+    color: white;
+}
+
+.layout-content-style {
+    padding:50px 50px 0;
+}
+
+.layout-content-style .container {
+    background: white;
+    padding: 6%;
+}
