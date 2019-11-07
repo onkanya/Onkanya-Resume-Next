@@ -1,6 +1,5 @@
 import { Layout, Typography, Row, Col } from 'antd'
 const { Header, Content, Footer } = Layout
-const { Title, Text } = Typography
 
 import './style.css'
 
