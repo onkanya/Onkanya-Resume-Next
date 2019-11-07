@@ -18,7 +18,7 @@ const DefaultLayout = (props) => {
                 </div>
             </Content>
             <Footer className='layout-footer-style'>
-                ONKANYA WONGRAKTHAI
+                Onkanya Resume Create by Next + Ant Design
             </Footer>
         </Layout>
     )
